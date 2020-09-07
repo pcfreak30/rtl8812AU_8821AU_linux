@@ -305,6 +305,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE(0x2357, 0x010F),.driver_info = RTL8812}, /* TP-Link - T4UHP */
 	{USB_DEVICE(0x2357, 0x0122),.driver_info = RTL8812}, /* TP-Link - T4UHP (other) */
 	{USB_DEVICE(0x148F, 0x9097),.driver_info = RTL8812}, /* Amped Wireless ACA1 */
+	{USB_DEVICE(0x0bda, 0x8812),.driver_info = RTL8812}, /* Alfa - Dual-Band AC1200 Wireless USB 3 */
 #endif
 
 #ifdef CONFIG_RTL8821A
